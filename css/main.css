@@ -9527,11 +9527,22 @@ h1 {
 }
 
 a {
-  margin-right: 17%;
+  width: 25%;
+}
+
+a:hover {
+  background-color: blue;
+  color: white;
+  width: 25%;
 }
 
 .margin {
   padding-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .rect {
@@ -9541,12 +9552,291 @@ a {
   background-color: grey;
 }
 
-.titre1 {
+h2 {
   text-align: left;
   color: red;
+  background-color: blue;
 }
 
 .element {
   padding-top: 30px;
+}
+
+.hidden {
+  border: 1px solid black;
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+  padding-top: 40px;
+}
+
+.section2 {
+  display: none;
+}
+
+.section3 {
+  display: none;
+}
+
+.section4 {
+  display: none;
+}
+
+.section5 {
+  display: none;
+}
+
+.section6 {
+  display: none;
+}
+
+.span {
+  font-size: 50px;
+}
+
+.hidde {
+  border: 1px solid black;
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+  padding-top: 40px;
+}
+
+.titre2 {
+  background-color: grey;
+  color: black;
+}
+
+.compteur {
+  border: 1px solid black;
+  background-color: blue;
+  width: 50%;
+  height: 150px;
+  margin: auto;
+}
+
+.bouton1 {
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 40px;
+}
+
+.bouton2 {
+  text-align: center;
+}
+
+.hidder {
+  border: 1px solid black;
+  width: 100%;
+  height: 370px;
+  background-color: grey;
+  padding-top: 40px;
+}
+
+.bout1 {
+  width: 80px;
+}
+
+.bout2 {
+  width: 80px;
+}
+
+.carre {
+  border: 1px solid red;
+  width: 20%;
+  height: 50px;
+  background-color: red;
+  margin: auto;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.compteur1 {
+  border: 1px solid black;
+  background-color: blue;
+  width: 50%;
+  height: 150px;
+  margin: auto;
+}
+
+.section5 {
+  display: none;
+}
+
+.div5 {
+  background-color: yellow;
+  height: 50%;
+  padding: 30px 10vh;
+}
+
+.zak {
+  color: white;
+  background-color: #63db34;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.cadre3 {
+  border: 1px solid black;
+  width: 100%;
+  height: 600px;
+  background-color: grey;
+}
+
+.derniertitre {
+  color: black;
+  background-color: grey;
+}
+
+.reponse {
+  color: red;
+  font-size: 23px;
+}
+
+.calculette {
+  border: 1px solid black;
+  width: 40%;
+  height: 300px;
+  margin-left: 40px;
+  background-color: black;
+}
+
+.touche1 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.touche2 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.touche3 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.toucheplus {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+
+.touche4 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.touche5 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.touche6 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.touchemoins {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+
+.touche7 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.touche8 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.touche9 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.touchefois {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+
+.effacer {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+
+.touche0 {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.egale {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+
+.touchedivise {
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+
+.rep {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */

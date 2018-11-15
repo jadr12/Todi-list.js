@@ -10,59 +10,190 @@
 </head>
 
 <body class="container">
-    <!--les boutons exercices-->
+    <!--les boutons exercices exo1-->
+
     <div class="titre">
         <h1><strong>DOM JAVASCRIPT</strong> </h1>
     </div>
     <div class="margin">
-        <a href="#">exercice 1</a>
 
         <a href="#">exercice 1</a>
 
-        <a href="#">exercice 1</a>
+        <a href="#">exercice 2</a>
 
-        <a href="#">exercice 1</a>
+        <a href="#">exercice 3</a>
 
-        <a href="#">exercice 1</a>
+        <a href="#">exercice 4</a>
 
-        <a href="#">exercice 1</a>
+        <a href="#">exercice 5</a>
+
+        <a href="#">exercice 6</a>
 
     </div>
-    <!--Les élément dans le cadre exercice 1-->
+    <!--Les élément dans le cadre exercice 1 exo2-->
+    <section class="section1">
+        <div class="container">
+            <div class="rect">
+                <div class="element">
+                    <div class="container">
+                        <h2>Titre modifié</h2>
+                        <p>list de propriétés et méthodes à retrouver dans la documentation:</p>
+                        <ul>
+                            <li>innText</li>
+                            <li>innerHTML</li>
+                            <li>querySelector()</li>
+                            <li>querySelectorAll()</li>
+                            <li>style</li>
+                            <li>classList</li>
+                        </ul>
+                        <p>Changer le contenu du h2 par "le titre modifié"</p>
+                        <p>Changer la couleur du h2 comme vous voulez</p>
+                        <p>ajouter une class background bootstrap au h2</p>
+                    </div>
+                </div>
 
-    <div class="container">
-        <div class="rect">
-            <div class="element">
-                <div class="container">
-                    <h1 class="titre1">Titre modifié</h1>
-                    <p>list de propriétés et méthodes à retrouver dans la documentation:</p>
-                    <ul>
-                        <li>innText</li>
-                        <li>innerHTML</li>
-                        <li>querySelector()</li>
-                        <li>querySelectorAll()</li>
-                        <li>style</li>
-                        <li>classList</li>
-                    </ul>
-                    <p>Changer le contenu du h2 par "le titre modifié</p>
-                    <p>Changer la couleur du h2 comme vous voulez</p>
-                    <p>ajouter une class background bootstrap au h2</p>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+
+
+
+        <div class="hidden">Mettre un écouteur d'événement sur les boutons nav et changer le pannel en conséquence</div>
+
+
+
+
+
+    </section>
+    <section class="section3">
+        <div class="hidde">
+            <h2 class="titre2"><strong class="span">Welcome <span>Inconnu</span></strong></h2>
+            <p>ecrivez dans l'input ci-dessous le nom de la personne que vous voulez acceuillir lorsque vous cliquez
+                sur go sur bouton go le nom que vous avez ajoutez dans l'input sera alors mis dans le span du h2 et
+                l'input sera encore vide de toute contenue. Attention à ne pas toucher l'HTML.</p>
+            <input type="text" id="formulaire"> <button class="btn">GO</button>
+        </div>
+
+    </section>
+    <section class="section4">
+        <div class="hidder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="compteur">
+                            <div class="carre"></div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="compteur1"></div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+            <div class="bouton1">
+                <button type="button" class="btn btn-primary btn1">Change place</button>
+            </div>
+            <div class="bouton2">
+                <button type="button" class="btn btn-primary btn2">Nombre de clic <span class="nombre"></span> </button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section5">
+            <div class="div5">
+
+            <h1>Générer des éléments du DOM</h1>
+            <p>Cliquer sur le bouton ci-dessous pour générer des oeufs.</p>
+            <button class="zak">Ajoutez un oeuf</button>
+            <div class="zaki"></div>
+    
+         </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="cadre3">
+            <h1 class="derniertitre">Creation calculatrie</h1>
+            <h3>Niveau 1</h3>
+            <input type="Number" id="inp1"> + <input type="Number" id="inp2"> <button class="btn3">=</button><span class="reponse"></span>
+            <h3>Niveau 2</h3>
+            <div>
+                <div class="calculette">
+                    <div class="resultat">
+                        <h5 class="text-white">Reponse</h5>
+                        <div class="rep">
+                        <input type="number">
+                    </div>
+                        <!--Je commence les boutons chiffres de ma calculette-->
+                        <div class="container">
+                           <div class="row pt-2">
+                               <div class="col-3">
+                                   <button class="touche1">1</button>
+                               </div>
+                               <div class="col-3">
+                                   <button class="touche2">2</button>
+                               </div>
+                               <div class="col-3">
+                                   <button class="touche3">3</button>
+                               </div>
+                               <div class="col-3">
+                                   <button class="toucheplus">+</button>
+                               </div>
+                           </div>
+                           <div class="row pt-2">
+                                <div class="col-3">
+                                        <button class="touche4">4</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button class="touche5">5</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button class="touche6">6</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button class="touchemoins">-</button>
+                                    </div>
+                           </div>
+                           <div class="row pt-2">
+                                <div class="col-3">
+                                        <button class="touche7">7</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button class="touche8">8</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button class="touche9">9</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button class="touchefois">X</button>
+                                    </div>
+                           </div>
+                           <div class="row pt-2">
+                               <div class="col-3">
+                                   <div class="effacer">C</div>
+                               </div>
+                               <div class="col-3">
+                                   <div class="touche0">0</div>
+                               </div>
+                               <div class="col-3">
+                                   <div class="egale">=</div>
+                               </div>
+                               <div class="col-3">
+                                   <div class="touchedivise">/</div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
         </div>
-    </div>
+      
+    </section>
 
 
-
-
-
-
-
-
-
-
-    <script src="./public/js/app.js"></script>
+    <script type="module" src="./public/js/app.js"></script>
 </body>
 
 </html>
