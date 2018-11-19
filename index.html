@@ -29,6 +29,8 @@
 
         <a href="#">exercice 6</a>
 
+        <a href="#">exercice 7</a>
+
     </div>
     <!--Les élément dans le cadre exercice 1 exo2-->
     <section class="section1">
@@ -124,7 +126,7 @@
                     <div class="resultat">
                         <h5 class="text-white">Reponse</h5>
                         <div class="rep">
-                        <input type="number">
+                        <input type="text" id="jad">
                     </div>
                         <!--Je commence les boutons chiffres de ma calculette-->
                         <div class="container">
@@ -172,16 +174,16 @@
                            </div>
                            <div class="row pt-2">
                                <div class="col-3">
-                                   <div class="effacer">C</div>
+                                <button class="effacer">C</button>
                                </div>
                                <div class="col-3">
-                                   <div class="touche0">0</div>
+                                <button class="touche0">0</button>
                                </div>
                                <div class="col-3">
-                                   <div class="egale">=</div>
+                                <button class="egale">=</button>
                                </div>
                                <div class="col-3">
-                                   <div class="touchedivise">/</div>
+                                <button class="touchedivise">/</button>
                                </div>
                            </div>
                         </div>
@@ -191,7 +193,27 @@
         </div>
       
     </section>
+    <div class="section7">
 
+        <div class="div7">
+  
+           <div class="ajout">
+              <input id="titre" type="text">
+              <button class="ok">OK</button>
+           </div>
+  
+           <div class="affichage">
+              <button class="all">ALL</button>
+              <button class="todo">TO DO</button>
+              <button class="done">DONE</button>
+           </div>
+  
+           <div class="liste"></div>
+  
+        </div>
+  
+     </div>
+    </section>
 
     <script type="module" src="./public/js/app.js"></script>
 </body>

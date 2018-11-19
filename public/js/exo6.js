@@ -1,7 +1,5 @@
 var resultat = 0
 
-
-
 function calcule(){
   var x =  document.getElementById('inp1').value
   var y =  document.getElementById('inp2').value

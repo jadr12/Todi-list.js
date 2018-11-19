@@ -9590,6 +9590,10 @@ h2 {
   display: none;
 }
 
+.section7 {
+  display: none;
+}
+
 .span {
   font-size: 50px;
 }
@@ -9838,5 +9842,95 @@ h2 {
 
 .rep {
   margin-left: 15px;
+}
+
+.div7 {
+  background-color: #c4c4c4;
+  height: 500px;
+  padding: 30px 10vh;
+}
+
+.ajout {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#titre {
+  height: 30px;
+  width: 50%;
+  border-radius: 50px;
+  padding-left: 15px;
+  color: blue;
+  margin-right: 10px;
+  font-size: 15px;
+  border: solid 2px blue;
+}
+
+.ok {
+  height: 35px;
+  width: 10%;
+  border-radius: 50px;
+  background-color: blue;
+  color: white;
+}
+
+.affichage {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.all {
+  height: 35px;
+  width: 20%;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border: solid 2px #24afe6;
+  color: #24afe6;
+}
+
+.todo {
+  height: 35px;
+  width: 20%;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border: solid 2px #2bb675;
+  color: #2bb675;
+}
+
+.done {
+  height: 35px;
+  width: 20%;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: solid 2px #d35959;
+  color: #d35959;
+}
+
+.liste {
+  background-color: blue;
+  height: 100px;
+}
+
+.classe {
+  background-color: red;
+  height: 50px;
 }
 /*# sourceMappingURL=main.css.map */

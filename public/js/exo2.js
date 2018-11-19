@@ -86,4 +86,18 @@ var x = document.querySelectorAll('a');
     document.querySelector('.section6').style.display="initial"
  }
 
- 
+ var x = document.querySelectorAll('a');
+ x[6].addEventListener('click',section7)
+
+
+ function section7(){
+    event.preventDefault();
+    document.querySelector('.section1').style.display="none"
+    document.querySelector('.section2').style.display="none"
+    document.querySelector('.section3').style.display="none"
+    document.querySelector('.section4').style.display="none"
+    document.querySelector('.section5').style.display="none"
+    document.querySelector('.section6').style.display="none"
+    document.querySelector('.section7').style.display="initial"
+ }
+
